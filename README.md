@@ -1,60 +1,48 @@
-# Verificador de Triángulos
+Este proyecto es una aplicación de consola sencilla que permite verificar el tipo de triángulo (equilátero, isósceles o escaleno) según los valores de sus lados.
 
-Este proyecto es una aplicación de consola simple que permite verificar el tipo de triángulo (equilátero, isósceles o escaleno) según los valores de sus lados.
+Requisitos:
 
-## Requisitos
+Antes de poder ejecutar este programa, necesitará tener Python instalado en su computadora.
 
-Antes de poder ejecutar este programa, necesitarás tener Python instalado en tu computadora.
+Paso 1: Instalación de Python
 
-### Paso 1: Instalación de Python
+Descargar Python:
 
-1. **Descargar Python**:
-   - Visita el sitio oficial de Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-   - Descarga la versión recomendada para tu sistema operativo (Windows, macOS, o Linux).
+Visite el sitio oficial de Python en https://www.python.org/downloads/.
+Descargue la versión recomendada para su sistema operativo (Windows, macOS, o Linux).
+Instalar Python:
 
-2. **Instalar Python**:
-   - Abre el archivo descargado y sigue las instrucciones del instalador.
-   - **Importante**: Durante la instalación, asegúrate de marcar la casilla que dice "Add Python to PATH" (Agregar Python al PATH). Esto permitirá que puedas ejecutar Python desde la línea de comandos.
+Abra el archivo descargado y siga las instrucciones del instalador.
+Es importante que durante la instalación, marque la casilla que dice "Add Python to PATH" (Agregar Python al PATH). Esto permitirá que pueda ejecutar Python desde la línea de comandos.
+Verificar la instalación:
 
-3. **Verificar la instalación**:
-   - Abre una terminal o línea de comandos (en Windows, puedes buscar "cmd" en el menú de inicio).
-   - Escribe el siguiente comando y presiona Enter:
-     ```
-     python --version
-     ```
-   - Deberías ver algo como `Python 3.x.x`, donde `3.x.x` es el número de versión que has instalado.
+Abra una terminal o línea de comandos. En Windows, puede buscar "cmd" en el menú de inicio.
+Escriba el siguiente comando y presione Enter:
+python --version
+Debería ver un mensaje que muestre algo como Python 3.x.x, donde 3.x.x es el número de versión que ha instalado.
+Paso 2: Crear el Archivo del Programa
 
-### Paso 2: Crear el Archivo del Programa
+Crear un archivo nuevo:
+Abra un editor de texto simple (como Notepad en Windows o TextEdit en macOS) o un editor de código (como VS Code o Sublime Text).
+Copie el código compartido en el repositorio
+Guardar el archivo:
+Guarde el archivo con el nombre triangulo.py.
+Asegúrese de que el archivo tenga la extensión .py, lo que indica que es un archivo Python.
+Paso 3: Ejecutar el Programa
 
-1. **Crear un archivo nuevo**:
-   - Abre un editor de texto simple (como Notepad en Windows o TextEdit en macOS) o un editor de código (como VS Code o Sublime Text).
-   - Copia el código disponible en el repositorio
+Abrir la terminal o línea de comandos:
 
-2. **Guardar el archivo**:
-   - Guarda el archivo con el nombre `triangulo.py`.
-   - Asegúrate de que el archivo tenga la extensión `.py` (esto indica que es un archivo Python).
+En Windows, busque "cmd" en el menú de inicio.
+En macOS o Linux, puede abrir la terminal desde la carpeta "Aplicaciones" o desde el buscador.
+Navegar hasta el directorio donde guardó el archivo:
 
-### Paso 3: Ejecutar el Programa
+Use el comando cd (cambiar directorio) para moverse a la carpeta donde guardó triangulo.py. Por ejemplo, en Windows:
+cd C:\Users\SuUsuario\Documents
 
-1. **Abrir la terminal o línea de comandos**:
-   - En Windows, busca "cmd" en el menú de inicio.
-   - En macOS o Linux, puedes abrir la terminal desde la carpeta "Aplicaciones" o desde el buscador.
+Ejecutar el programa:
 
-2. **Navegar hasta el directorio donde guardaste el archivo**:
-   - Usa el comando `cd` (cambiar directorio) para moverte a la carpeta donde guardaste `triangulo.py`. Por ejemplo:
-     ```
-     cd C:\Users\TuUsuario\Documents
-     ```
-   - En macOS o Linux, podría ser algo como:
-     ```
-     cd /Users/TuUsuario/Documents
-     ```
-
-3. **Ejecutar el programa**:
-   - Una vez en el directorio correcto, escribe el siguiente comando y presiona Enter:
-     ```
-     python triangulo.py
-     ```
-   - El programa te pedirá que ingreses los lados del triángulo. Introduce los valores y presiona Enter después de cada uno.
-   - El programa te indicará el tipo de triángulo que corresponde a los lados ingresados.
-
+Una vez en el directorio correcto, escriba el siguiente comando y presione Enter:
+python triangulo.py
+El programa le pedirá que ingrese los lados del triángulo. Introduzca los valores y presione Enter después de cada uno.
+El programa le indicará el tipo de triángulo que corresponde a los lados ingresados.
+De esta manera, debería poder ejecutar su programa de verificación de triángulos desde la consola sin problemas.
